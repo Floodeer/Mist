@@ -4,7 +4,6 @@ using namespace MistCore;
 
 AppLayer::AppLayer()
 {
-
 }
 
 AppLayer::~AppLayer()
