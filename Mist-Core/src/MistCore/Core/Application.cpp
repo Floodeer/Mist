@@ -17,7 +17,6 @@ namespace MistCore {
 	{
 		if (!s_Instance)
 		{
-			// Initialize core
 			Log::Init();
 		}
 

@@ -1,10 +1,12 @@
 #include "AppLayer.h"
 
-using namespace MistCore;
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <atomic>
+#include <future>
 
-AppLayer::AppLayer()
-{
-}
+using namespace MistCore;
 
 AppLayer::~AppLayer()
 {
@@ -28,4 +30,6 @@ void AppLayer::OnUpdate(Timestep ts)
 
 void AppLayer::OnImGuiRender()
 {
+
+	
 }

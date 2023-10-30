@@ -20,7 +20,9 @@ project "Mist-Sandbox"
 		"../Mist-Core/vendor",
 		"../Mist-Core/%{IncludeDir.glm}",
 		"../Mist-Core/%{IncludeDir.Glad}",
-		"../Mist-Core/%{IncludeDir.ImGui}"
+		"../Mist-Core/%{IncludeDir.ImGui}",
+		"../Mist-Core/%{IncludeDir.curl}",
+		"../Mist-Core/%{IncludeDir.jsoncpp}"
 	}
 
 	links

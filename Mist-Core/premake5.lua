@@ -17,7 +17,7 @@ project "Mist-Core"
 		"vendor/stb_image/**.h",
 		"vendor/stb_image/**.cpp",
 		"vendor/glm/glm/**.hpp",
-		"vendor/glm/glm/**.inl",
+		"vendor/glm/glm/**.inl"
 	}
 
 	defines
@@ -29,11 +29,14 @@ project "Mist-Core"
 	{
 		"src",
 		"vendor/spdlog/include",
+		"%{IncludeDir.curl}",
+        "%{IncludeDir.jsoncpp}",
 		"%{IncludeDir.GLFW}",
 		"%{IncludeDir.Glad}",
 		"%{IncludeDir.ImGui}",
 		"%{IncludeDir.glm}",
 		"%{IncludeDir.stb_image}"
+
 	}
 
 	links 
@@ -41,7 +44,9 @@ project "Mist-Core"
 		"GLFW",
 		"Glad",
 		"ImGui",
-		"opengl32.lib"
+		"opengl32.lib",
+		"jsoncpp",
+        "curl"
 	}
 
 	filter "system:windows"
