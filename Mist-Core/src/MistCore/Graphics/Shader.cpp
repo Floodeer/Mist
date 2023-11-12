@@ -4,7 +4,7 @@
 #include <Platform/OpenGL/OpenGLShader.h>
 #include <MistCore/Graphics/Renderer.h>
 
-namespace MistCore {
+namespace Mist {
 
 
 	Shader* Shader::CreateShader(const std::string& source, const std::string& fragment)

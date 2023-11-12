@@ -4,7 +4,7 @@
 #include "glad/glad.h"
 #include <glm/gtc/type_ptr.hpp>
 
-namespace MistCore {
+namespace Mist {
 
 	OpenGLShader::OpenGLShader(const std::string& vertexSource, const std::string& fragmentSource)
 	{

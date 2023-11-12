@@ -1,7 +1,7 @@
 #include "glpch.h"
 #include "LayerStack.h"
 
-namespace MistCore {
+namespace Mist {
 
 	LayerStack::LayerStack()
 	{

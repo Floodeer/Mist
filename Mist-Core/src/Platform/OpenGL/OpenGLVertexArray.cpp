@@ -3,26 +3,26 @@
 
 #include <glad/glad.h>
 
-namespace MistCore {
+namespace Mist {
 
 	static GLenum ShaderDataTypeTransform(ShaderDataType type)
 	{
 		switch (type)
 		{
-		    case MistCore::ShaderDataType::Float: return GL_FLOAT;
-			case MistCore::ShaderDataType::Float2: return GL_FLOAT;
-			case MistCore::ShaderDataType::Float3: return GL_FLOAT;
-			case MistCore::ShaderDataType::Float4: return GL_FLOAT;
+		    case Mist::ShaderDataType::Float: return GL_FLOAT;
+			case Mist::ShaderDataType::Float2: return GL_FLOAT;
+			case Mist::ShaderDataType::Float3: return GL_FLOAT;
+			case Mist::ShaderDataType::Float4: return GL_FLOAT;
 
-			case MistCore::ShaderDataType::Mat3: return GL_FLOAT;
-			case MistCore::ShaderDataType::Mat4: return GL_FLOAT;
+			case Mist::ShaderDataType::Mat3: return GL_FLOAT;
+			case Mist::ShaderDataType::Mat4: return GL_FLOAT;
 
-			case MistCore::ShaderDataType::Int: return GL_INT;
-			case MistCore::ShaderDataType::Int2: return GL_INT;
-			case MistCore::ShaderDataType::Int3: return GL_INT;
-			case MistCore::ShaderDataType::Int4: return GL_INT;
+			case Mist::ShaderDataType::Int: return GL_INT;
+			case Mist::ShaderDataType::Int2: return GL_INT;
+			case Mist::ShaderDataType::Int3: return GL_INT;
+			case Mist::ShaderDataType::Int4: return GL_INT;
 
-			case MistCore::ShaderDataType::Bool: return GL_BOOL;
+			case Mist::ShaderDataType::Bool: return GL_BOOL;
 		}
 
 		MCORE_ASSERT(false, "Invalid ShaderDataType");

@@ -3,7 +3,7 @@
 
 #include "Platform/OpenGL/OpenGLShader.h"
 
-namespace MistCore {
+namespace Mist {
 
 	Renderer::Scene* Renderer::g_Scene = new Renderer::Scene;
 

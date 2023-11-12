@@ -7,7 +7,7 @@
 
 #include <glfw/glfw3.h>
 
-namespace MistCore {
+namespace Mist {
 
 #define BIND_EVENT_FN(x) std::bind(&Application::x, this, std::placeholders::_1)
 

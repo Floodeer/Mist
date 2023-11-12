@@ -6,7 +6,7 @@
 
 #include <glm/glm.hpp>
 
-namespace MistCore {
+namespace Mist {
 
 	class RendererAPI
 	{

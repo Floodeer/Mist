@@ -4,7 +4,7 @@
 #include "Timestep.h"
 #include "../Events/Event.h"
 
-namespace MistCore {
+namespace Mist {
 
 	class Layer
 	{

@@ -2,7 +2,7 @@
 
 #include "Core.h"
 
-namespace MistCore {
+namespace Mist {
 
 	class Input
 	{

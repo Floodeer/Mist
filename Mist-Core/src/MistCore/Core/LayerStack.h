@@ -5,7 +5,7 @@
 
 #include <vector>
 
-namespace MistCore {
+namespace Mist {
 
 	class LayerStack
 	{

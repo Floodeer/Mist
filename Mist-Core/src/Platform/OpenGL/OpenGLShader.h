@@ -3,7 +3,7 @@
 #include "MistCore/Graphics/Shader.h"
 #include <glm/glm.hpp>
 
-namespace MistCore {
+namespace Mist {
 
 	class OpenGLShader : public Shader
 	{

@@ -11,7 +11,7 @@
 
 #include "../ImGui/ImGuiLayer.h"
 
-namespace MistCore {
+namespace Mist {
 
 	class Application
 	{

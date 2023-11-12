@@ -4,7 +4,7 @@
 #include "spdlog/spdlog.h"
 #include "spdlog/fmt/ostr.h"
 
-namespace MistCore {
+namespace Mist {
 
 	class Log
 	{
@@ -18,8 +18,8 @@ namespace MistCore {
 
 }
 
-#define LOG_TRACE(...)         ::MistCore::Log::GetLogger()->trace(__VA_ARGS__)
-#define LOG_INFO(...)          ::MistCore::Log::GetLogger()->info(__VA_ARGS__)
-#define LOG_WARN(...)          ::MistCore::Log::GetLogger()->warn(__VA_ARGS__)
-#define LOG_ERROR(...)         ::MistCore::Log::GetLogger()->error(__VA_ARGS__)
-#define LOG_CRITICAL(...)      ::MistCore::Log::GetLogger()->critical(__VA_ARGS__)
+#define LOG_TRACE(...)         ::Mist::Log::GetLogger()->trace(__VA_ARGS__)
+#define LOG_INFO(...)          ::Mist::Log::GetLogger()->info(__VA_ARGS__)
+#define LOG_WARN(...)          ::Mist::Log::GetLogger()->warn(__VA_ARGS__)
+#define LOG_ERROR(...)         ::Mist::Log::GetLogger()->error(__VA_ARGS__)
+#define LOG_CRITICAL(...)      ::Mist::Log::GetLogger()->critical(__VA_ARGS__)

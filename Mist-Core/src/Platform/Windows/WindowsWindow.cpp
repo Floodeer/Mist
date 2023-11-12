@@ -8,7 +8,7 @@
 #include <GLFW/glfw3.h>
 #include <glad/glad.h>
 
-namespace MistCore {
+namespace Mist {
 	
 	static bool s_GLFWInitialized = false;
 

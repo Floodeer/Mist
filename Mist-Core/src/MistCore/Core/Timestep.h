@@ -1,6 +1,6 @@
 #pragma once
 
-namespace MistCore {
+namespace Mist {
 
 	class Timestep
 	{

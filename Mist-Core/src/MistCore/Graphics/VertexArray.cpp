@@ -4,7 +4,7 @@
 #include "Renderer.h"
 #include "Platform/OpenGL/OpenGLVertexArray.h"
 
-namespace MistCore {
+namespace Mist {
 
 	VertexArray* VertexArray::Create()
 	{

@@ -2,7 +2,7 @@
 
 #include "glpch.h"
 
-namespace MistCore {
+namespace Mist {
 
 	enum class ShaderDataType
 	{

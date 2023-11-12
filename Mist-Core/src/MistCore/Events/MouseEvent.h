@@ -2,7 +2,7 @@
 
 #include "Event.h"
 
-namespace MistCore {
+namespace Mist {
 
 	class MouseMovedEvent : public Event
 	{

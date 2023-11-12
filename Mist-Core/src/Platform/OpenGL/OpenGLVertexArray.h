@@ -2,7 +2,7 @@
 
 #include <MistCore/Graphics/VertexArray.h>
 
-namespace MistCore {
+namespace Mist {
 
 	class OpenGLVertexArray : public VertexArray
 	{

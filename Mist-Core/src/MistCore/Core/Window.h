@@ -5,7 +5,7 @@
 #include "MistCore/Core/Core.h"
 #include "MistCore/Events/Event.h"
 
-namespace MistCore {
+namespace Mist {
 
 	struct WindowProps
 	{

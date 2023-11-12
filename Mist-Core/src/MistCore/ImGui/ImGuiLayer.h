@@ -6,7 +6,7 @@
 #include "MistCore/Events/KeyEvent.h"
 #include "MistCore/Events/MouseEvent.h"
 
-namespace MistCore {
+namespace Mist {
 
 	class ImGuiLayer : public Layer
 	{

@@ -4,7 +4,7 @@
 #include "MistCore/Core/Application.h"
 #include <GLFW/glfw3.h>
 
-namespace MistCore {
+namespace Mist {
 
 	Input* Input::s_Instance = new WindowsInput();
 

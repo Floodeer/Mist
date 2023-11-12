@@ -3,7 +3,7 @@
 #include "glpch.h"
 #include "../Core/Core.h"
 
-namespace MistCore {
+namespace Mist {
 
 	enum class EventType
 	{

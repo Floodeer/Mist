@@ -2,7 +2,7 @@
 
 #include "MistCore/Core/Input.h"
 
-namespace MistCore {
+namespace Mist {
 
 	class WindowsInput : public Input
 	{

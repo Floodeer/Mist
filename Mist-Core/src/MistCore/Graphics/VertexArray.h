@@ -3,7 +3,7 @@
 #include <memory>
 #include "MistCore/Graphics/Buffer.h"
 
-namespace MistCore {
+namespace Mist {
 
 	class VertexArray
 	{
