@@ -1,7 +1,7 @@
 #include "MistCore.h"
 #include "AppLayer.h"
 
-using namespace MistCore;
+using namespace Mist;
 
 class Sandbox : public Application
 {

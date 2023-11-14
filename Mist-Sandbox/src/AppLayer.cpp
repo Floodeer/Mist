@@ -6,7 +6,7 @@
 #include <atomic>
 #include <future>
 
-using namespace MistCore;
+using namespace Mist
 
 AppLayer::~AppLayer()
 {

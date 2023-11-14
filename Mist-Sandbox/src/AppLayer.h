@@ -3,7 +3,7 @@
 #include <MistCore.h>
 #include <MistCore.h>
 
-class AppLayer : public MistCore::Layer
+class AppLayer : public Mist::Layer
 {
 public:
 	AppLayer();
@@ -11,8 +11,8 @@ public:
 
 	virtual void OnAttach() override;
 	virtual void OnDetach() override;
-	virtual void OnEvent(MistCore::Event& event) override;
-	virtual void OnUpdate(MistCore::Timestep ts) override;
+	virtual void OnEvent(Mist::Event& event) override;
+	virtual void OnUpdate(Mist::Timestep ts) override;
 	virtual void OnImGuiRender() override;
 private:
 };
