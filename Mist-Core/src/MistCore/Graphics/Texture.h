@@ -2,8 +2,6 @@
 
 #include <string>
 
-#include "glpch.h"
-
 namespace Mist {
 
 	class Texture

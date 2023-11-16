@@ -2,7 +2,8 @@
 #include "Shader.h"
 
 #include <Platform/OpenGL/OpenGLShader.h>
-#include <MistCore/Graphics/Renderer.h>
+
+#include "RendererAPI.h"
 
 namespace Mist {
 

@@ -4,7 +4,7 @@
 #include "MistCore/Core/Input.h"
 #include "MistCore/Core/KeyCodes.h"
 
-namespace MistCore::Utils {
+namespace Mist::Utils {
 
 	OrthographicCameraController::OrthographicCameraController(float aspectRatio, bool rotation)
 		: m_AspectRatio(aspectRatio), m_Camera(-m_AspectRatio * m_ZoomLevel, m_AspectRatio * m_ZoomLevel, -m_ZoomLevel, m_ZoomLevel), m_Rotation(rotation)

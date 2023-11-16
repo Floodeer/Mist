@@ -2,7 +2,7 @@
 
 #include <glm/glm.hpp>
 
-namespace MistCore::Utils {
+namespace Mist::Utils {
 
 	class OrthographicCamera
 	{

@@ -1,8 +1,9 @@
 #include "glpch.h"
 #include "VertexArray.h"
 
-#include "Renderer.h"
 #include "Platform/OpenGL/OpenGLVertexArray.h"
+
+#include "RendererAPI.h"
 
 namespace Mist {
 

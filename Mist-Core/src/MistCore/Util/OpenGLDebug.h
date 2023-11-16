@@ -4,7 +4,7 @@
 
 #include "MistCore/Core/Log.h"
 
-namespace MistCore::Utils {
+namespace Mist::Utils {
 
 	enum class DebugLogLevel
 	{

@@ -46,5 +46,4 @@ namespace Mist {
 			m_Layers.erase(it);
 		}
 	}
-
 }

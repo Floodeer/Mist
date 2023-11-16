@@ -1,7 +1,8 @@
 #include "Texture.h"
+#include "glpch.h"
 
 #include "Platform/OpenGL/OpenGLTexture.h"
-#include "MistCore/Graphics/Renderer.h"
+#include "MistCore/Graphics/RendererAPI.h"
 
 namespace Mist {
 

@@ -1,7 +1,7 @@
 #include "glpch.h"
 #include "OpenGLDebug.h"
 
-namespace MistCore::Utils {
+namespace Mist::Utils {
 
 	static DebugLogLevel s_DebugLogLevel = DebugLogLevel::HighAssert;
 

@@ -1,9 +1,11 @@
 #pragma once
 
 #include <MistCore.h>
-#include <MistCore.h>
+#include <MistCoreUtils.h>
 
-class AppLayer : public Mist::Layer
+using namespace Mist;
+
+class AppLayer : public Layer
 {
 public:
 	AppLayer();
@@ -11,8 +13,8 @@ public:
 
 	virtual void OnAttach() override;
 	virtual void OnDetach() override;
-	virtual void OnEvent(Mist::Event& event) override;
-	virtual void OnUpdate(Mist::Timestep ts) override;
+	virtual void OnEvent(Event& event) override;
+	virtual void OnUpdate(Timestep ts) override;
 	virtual void OnImGuiRender() override;
 private:
 };
