@@ -2,7 +2,7 @@
 
 #include <glm/glm.hpp>
 
-namespace Mist::Utils {
+namespace Mist {
 
 	class OrthographicCamera
 	{
@@ -30,5 +30,4 @@ namespace Mist::Utils {
 		glm::vec3 m_Position = { 0.0f, 0.0f, 0.0f };
 		float m_Rotation = 0.0f;
 	};
-
 }

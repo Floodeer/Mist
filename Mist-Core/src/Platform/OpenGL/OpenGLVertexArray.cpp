@@ -46,7 +46,7 @@ namespace Mist {
 
 	void OpenGLVertexArray::AddVertexBuffer(const std::shared_ptr<VertexBuffer>& vertexBuffer)
 	{
-		MCORE_ASSERT(vertexBuffer->GetLayout().GetElements().size(), "Vertex Buffer empty layout");
+		MCORE_ASSERT(vertexBuffer->GetLayout().GetElements().size(), "Vertex Buffer empty layout error");
 
 		glBindVertexArray(m_RenderID);
 		vertexBuffer->Bind();
@@ -75,5 +75,4 @@ namespace Mist {
 
 		m_IndexBuffer = indexBuffer;
 	}
-
 }

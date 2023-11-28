@@ -2,6 +2,7 @@
 #include "Renderer.h"
 
 #include "Platform/OpenGL/OpenGLShader.h"
+#include "RenderCommand.h"
 
 namespace Mist {
 
@@ -9,17 +10,17 @@ namespace Mist {
 
 	void Renderer::Init()
 	{
-
+		RenderCommand::Init();
 	}
 
-	void Renderer::BeginScene()
+	void Renderer::BeginScene(OrthographicCamera& camera)
 	{
-
+		g_Scene->ViewProjectionMatrix = camera.GetViewProjectionMatrix();
 	}
 
 	void Renderer::EndScene()
 	{
-
+		
 	}
 
 	void Renderer::Submit(const std::shared_ptr<Shader>& shader, const std::shared_ptr<VertexArray>& vertexArray, const glm::mat4& transform)
@@ -29,7 +30,7 @@ namespace Mist {
 		std::dynamic_pointer_cast<OpenGLShader>(shader)->UploadMat4("u_Transform", transform);
 
 		vertexArray->Bind();
-		//Draw
+		RenderCommand::DrawIndexed(vertexArray);
 	}
 
 }

@@ -20,4 +20,6 @@ namespace Mist {
 		MCORE_ASSERT(false, "Cannot bind the Renderer.");
 		return nullptr;
 	}
+
+	
 }

@@ -6,7 +6,7 @@
 #include "MistCore/Events/ApplicationEvent.h"
 #include "MistCore/Events/MouseEvent.h"
 
-namespace Mist::Utils {
+namespace Mist {
 
 	class OrthographicCameraController
 	{
